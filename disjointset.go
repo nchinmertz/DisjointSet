@@ -1,8 +1,6 @@
 package disjointset
 
-// DisjointSet is the interface for the disjoint-set (or union-find) data
-// structure.
-// Do not change the definition of this interface.
+// DisjointSet is the interface for the disjoint-set (or union-find) data structure.
 type DisjointSet interface {
 	// UnionSet(set, t) merges (unions) the set containing set and t,
 	// and returns the representative of the resulting merged set.
